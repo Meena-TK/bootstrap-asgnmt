@@ -1,0 +1,165 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Noto Sans", serif;
+    }
+
+    p {
+        font-family: "Playball", serif;
+        font-size: 1.2rem;
+
+    }
+
+    #header {
+        background-image: url("./images/header-img.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .headerHeading {
+        font-size: 7rem;
+        font-family: "Playball", serif;
+        color: white;
+    }
+
+    .header-btn1 {
+        background-color: white !important;
+        border: 1px solid white !important;
+
+    }
+
+    .header-btn1:hover {
+        background: transparent !important;
+    }
+
+    .header-btn2 {
+        border: 1px solid white !important;
+    }
+
+    .header-btn2:hover {
+        background: white !important;
+    }
+
+    #div-2 h5 {
+        font-weight: 600;
+    }
+
+    #div-3 {
+        background-image: url("./images/lavender-cake.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /*card*/
+    .card-imgdiv {
+        background-color: rgb(250, 250, 250);
+        width: 100%;
+        height: 250px;
+        text-align: center;
+    }
+
+    .cardContent {
+        text-align: center;
+    }
+
+    #div-4 h3 {
+        font-family: "Playball", serif;
+        color: rgb(124, 59, 59);
+        font-size: 2rem;
+    }
+
+    #div-4 h5 {
+        font-weight: 600;
+    }
+
+    #div-5 {
+        background-image: url("./images/cupcake-bg3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+    }
+
+    /*footer section*/
+    .iconCollections {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        /* border: solid; */
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10px;
+    }
+
+    .brands {
+        color: black;
+        font-size: 2rem;
+    }
+
+    .icon:hover {
+        background-image: linear-gradient(to bottom right, rgb(211, 168, 202), rgb(222, 169, 242), rgb(218, 182, 216));
+
+    }
+
+    .icon:hover .brands {
+        color: white;
+        animation: rotate 3s;
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(30deg);
+        }
+
+        20% {
+            transform: rotate(-30deg);
+        }
+
+        40% {
+            transform: rotate(30deg);
+        }
+
+        60% {
+            transform: rotate(-30deg);
+        }
+
+        80% {
+            transform: rotate(30deg);
+        }
+
+        100% {
+            transform: rotate(-30deg);
+        }
+    }
+
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: azure;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(228, 173, 208);
+        border-radius: 10px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
